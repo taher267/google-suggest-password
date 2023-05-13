@@ -241,7 +241,21 @@ export const Facebook = () => (
 
 export const FacebookWithForm = () => (
   <>
-    <div>
+    <input
+      type="password"
+      className="inputtext _58mg _5dba _2ph-"
+      data-type="password"
+      autoComplete="new-password"
+      name="reg_passwd__"
+      id="password_step_input"
+      aria-required="true"
+      placeholder=""
+      aria-label="New password"
+      aria-autocomplete="list"
+      aria-describedby="js_fh"
+      aria-invalid="true"
+    />
+    {/* <div>
       <input type="hidden" name="jazoest" value="2851" autoComplete="off" />
       <input type="hidden" name="lsd" value="AVrg4DUj29A" autoComplete="off" />
       <div id="reg_form_box" className="large_form">
@@ -272,6 +286,6 @@ export const FacebookWithForm = () => (
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
   </>
 );
